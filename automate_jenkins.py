@@ -83,13 +83,13 @@ def main():
     #copy_job(jenkins_server)
 
     #update Job
-    update_job(jenkins_server)
+    #update_job(jenkins_server)
 
     #disable Job
-    disable_job(jenkins_server)
+    #disable_job(jenkins_server)
 
     #delete Job
-    delete_job(jenkins_server)
+    #delete_job(jenkins_server)
 
     
 
