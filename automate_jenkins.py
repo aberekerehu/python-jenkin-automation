@@ -3,9 +3,9 @@ import json
 import os
 
 def create_jenkins_server():
-    host = "http://192.168.13.153:8080"
-    username = "akerehu"  # Jenkins username here
-    password = "11f107144f230b890216d73144ccf4cd8d"  # Jenkins user password / API token here
+    host = "http://localhost:8080"
+    username = "username"  # Jenkins username here
+    password = "password or api key"  # Jenkins user password / API token here
     server = jenkins.Jenkins(host, username=username, password=password)
     return server
 
